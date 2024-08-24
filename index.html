@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      header {
+        background-color: #f4f4f4;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .header-content {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .group-name {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+      }
+
+      .members {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .member {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .member-img {
+        border-radius: 50%;
+        border: 1px solid;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border: 4px solid #585858;
+      }
+      #imageHoang {
+        background: url("./Picture/headerHoang.jpg") center center no-repeat;
+        background-size: cover;
+      }
+      #imageDoanh {
+        background: url("./Picture/headerDoanh.jpg") center center no-repeat;
+        background-size: cover;
+      }
+      #imageTu {
+        background: url("./Picture/headerTu.jpg") center center no-repeat;
+        background-size: cover;
+      }
+
+      .member p {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 1.1em;
+        font-weight: 600;
+        color: #fa6d3f;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <h1 class="group-name">BA ANH TÀI</h1>
+        <div class="members">
+          <div class="member">
+            <div class="member-img" id="imageHoang"></div>
+            <p>NGUYỄN HOÀNG</p>
+          </div>
+          <div class="member">
+            <div class="member-img" id="imageDoanh"></div>
+            <p>ĐINH SỸ QUỐC DOANH</p>
+          </div>
+          <div class="member">
+            <div class="member-img" id="imageTu"></div>
+            <p>NGUYỄN ANH TÚ</p>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
